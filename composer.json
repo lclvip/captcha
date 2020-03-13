@@ -1,0 +1,23 @@
+{
+    "name": "lclvip/catpcha",
+    "description": "is is a captcha",
+    "type": "libray",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "lcl",
+            "email": "1105590231@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload":{
+	"psr-4":{"lclvip\\captcha\\":"src"}
+     }
+}
